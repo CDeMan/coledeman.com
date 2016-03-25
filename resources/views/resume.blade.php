@@ -1,6 +1,6 @@
 @extends('partials.contentdisplay')
 
-@section('title', 'Home')
+@section('title', 'Resume')
 
 @section('content')
 
