@@ -3,6 +3,10 @@
 @section('title', 'Home')
 
 @section('content')
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="/images/para.jpg"></div>
+    </div>
     <div class="container z-depth-4 grey-text">
         <p>
             C'mon man, let's do something that really cooks. You want it, you know you want it, and you know you want me
@@ -178,4 +182,12 @@
         </p>
     </div>
 
+@endsection
+
+@section('endsection')
+    <script>
+    $(document).ready(function(){
+    $('.parallax').parallax();
+    });
+    </script>
 @endsection
