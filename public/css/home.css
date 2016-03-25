@@ -1,3 +1,9 @@
 .parallax-container {
     height: 25rem;
 }
+
+@media (max-width: 500px) {
+    .parallax-container {
+        height: 15rem;
+    }
+}
