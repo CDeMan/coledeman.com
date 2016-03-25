@@ -18,7 +18,7 @@
             </div>
         </div>
     </nav>
-</header>
+</header>{{-- for a side nav
 <ul id="nav-mobile" class="side-nav purple">
 
-</ul>
+</ul>--}}

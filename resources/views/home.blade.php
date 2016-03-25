@@ -2,12 +2,19 @@
 
 @section('title', 'Home')
 
+@section('styles')
+    <link href="{{ URL::asset('css/home.css') }}" rel="stylesheet" type="text/css" media="screen,projection"/>
+@endsection
+
 @section('content')
 
-    <div class="parallax-container">
-        <div class="parallax"><img src="/images/para.jpg"></div>
+    <div class="parallax-container no-padding">
+        <div class="parallax no-padding">
+            <img src={{URL::asset('images/para1.jpg')}}>
+        </div>
     </div>
-    <div class="container z-depth-4 grey-text">
+    <div class=" section black">
+        <div class="container grey-text ">
         <p>
             C'mon man, let's do something that really cooks. You want it, you know you want it, and you know you want me
             to give it to you. Dear Doctor Brown, on the night that I go back in time, you will be shot by terrorists.
@@ -180,14 +187,17 @@
             weren't at school, what have you been doing all day? George, buddy. remember that girl I introduced you to,
             Lorraine. What are you writing? Wait a minute.
         </p>
+            </div>
     </div>
 
 @endsection
 
-@section('endsection')
+@section('endscripts')
     <script>
-    $(document).ready(function(){
-    $('.parallax').parallax();
-    });
+
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+
     </script>
 @endsection
