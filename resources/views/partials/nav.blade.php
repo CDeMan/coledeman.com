@@ -2,7 +2,7 @@
     <nav class="@yield('nav_color')">
         <div class="col s12">
             <div class="nav-wrapper">
-                <a href="/home/" class="brand-logo">@yield('title')</a>
+                <a href="/home/" class="brand-logo">Home</a>
                 <ul id="nav-mobile" class="right hide-on-small-and-down">
                     <li>
                         <a href="#" class="dropdown-button" data-beloworigin="true" data-activates="dropdown4">About Cole</a>
