@@ -22,3 +22,7 @@ Route::get('/home', function () {
 Route::get('/resume', function () {
     return view('resume');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
