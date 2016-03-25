@@ -3,7 +3,7 @@
 @section('title', 'About Cole')
 
 @section('content')
-    <div class="section black grey-text">
+    <div class="section grey darken-4 grey-text">
         <div class="container grey-text ">
             <h3>@yield('title')</h3>
             <p>

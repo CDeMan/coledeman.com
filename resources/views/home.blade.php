@@ -13,7 +13,7 @@
             <img src={{URL::asset('images/para1.jpg')}}>
         </div>
     </div>
-    <div class=" section black">
+    <div class=" section grey darken-4">
         <div class="container grey-text ">
             <p>
                 C'mon man, let's do something that really cooks. You want it, you know you want it, and you know you
