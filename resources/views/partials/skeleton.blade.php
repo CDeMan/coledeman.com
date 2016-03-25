@@ -19,6 +19,9 @@
 
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Cole DeMan's Website">
+    <meta name="keywords" content="computer science, resume, coder, programmer, laravel, dalhousie">
+    <meta name="author" content="Cole DeMan">
 </head>
 <body>
 @yield('body')
