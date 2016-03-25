@@ -26,7 +26,3 @@ Route::get('/resume', function () {
 Route::get('/about', function () {
     return view('about');
 });
-
-Route::get('/carly', function () {
-    return view('deletelater');
-});
