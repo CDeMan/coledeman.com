@@ -2,6 +2,10 @@
     height: 25rem;
 }
 
+.profile_pic {
+    width: 15rem;
+}
+
 @media (max-width: 500px) {
     .parallax-container {
         height: 15rem;

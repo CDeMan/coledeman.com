@@ -4,7 +4,9 @@
     <title>@yield('title') - Cole DeMan's Site</title>
 
     <link href="{{ URL::asset('css/materialize.css') }}" rel="stylesheet" type="text/css" media="screen,projection"/>
+    <link href="{{ URL::asset('css/nav.css') }}" rel="stylesheet" type="text/css" media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     @yield('styles')
     @yield('scripts')
     <script src='https://www.google.com/recaptcha/api.js'></script>

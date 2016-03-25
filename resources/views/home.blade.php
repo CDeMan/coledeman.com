@@ -9,12 +9,16 @@
 @section('content')
 
     <div class="parallax-container no-padding">
+
+        <div class="left">
+            <img class="responsive-img profile_pic z-depth-4" src={{URL::asset('images/userimage.jpg')}}>
+        </div>
         <div class="parallax no-padding">
             <img src={{URL::asset('images/para1.jpg')}}>
         </div>
     </div>
-    <div class=" section grey darken-4">
-        <div class="container grey-text ">
+    <div class=" section grey darken-4 z-depth-4">
+        <div class="container grey-text">
             <p>
                 C'mon man, let's do something that really cooks. You want it, you know you want it, and you know you
                 want me
