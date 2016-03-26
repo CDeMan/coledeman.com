@@ -3,11 +3,25 @@
 }
 
 .profile_pic {
-    width: 15rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 @media (max-width: 500px) {
     .parallax-container {
         height: 15rem;
+    }
+
+    .profile_pic {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .card-panel {
+        padding: 5px;
+    }
+
+    .card-panel p{
+        font-size: 14px;
     }
 }

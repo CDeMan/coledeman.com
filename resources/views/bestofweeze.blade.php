@@ -9,6 +9,7 @@
 @section('content')
 
     <div class="section grey darken-4">
+        <div class="Collage">
         <?php
         $directory = 'images/bestofweeze';
         $files = File::allFiles($directory);
@@ -16,6 +17,8 @@
             echo "<img class=\"weeze\" src=\"".(string)$file."\">" , "\n";
         }
         ?>
+        </div>
     </div>
 
 @endsection
+

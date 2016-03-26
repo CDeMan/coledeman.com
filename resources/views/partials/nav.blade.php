@@ -4,7 +4,7 @@
             <div class="nav-wrapper">
                 <ul id="nav-mobile" class="left">
                     <li>
-                    <a href="/home" id="home_link">Home</a>
+                        <a href="/home" id="home_link">Home</a>
                     </li>
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-small-and-down">
