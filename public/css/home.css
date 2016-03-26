@@ -1,13 +1,24 @@
 .parallax-container {
-    height: 25rem;
+    height: 35rem;
 }
 
 .profile_pic {
-    width: 10rem;
-    height: 10rem;
+    width: 20rem;
+    height: 20rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1400px) {
+    .parallax-container {
+        height: 25rem;
+    }
+
+    .profile_pic {
+        width: 13rem;
+        height: 13rem;
+    }
+}
+
+@media (max-width: 550px) {
     .parallax-container {
         height: 15rem;
     }
@@ -24,4 +35,5 @@
     .card-panel p{
         font-size: 14px;
     }
+
 }

@@ -14,7 +14,7 @@
 @section('content')
 
     <div class="parallax-container valign-wrapper row">
-        <div class="col s4 valign">
+        <div class="col s4 valign cards">
             <div class="center">
                 <a href="@yield('card1lnk')">
                     <img class="circle profile_pic" src={{URL::asset('images/userimage.jpg')}}>
@@ -26,7 +26,7 @@
                 </a>
             </div>
         </div>
-        <div class="col s4 valign">
+        <div class="col s4 valign cards">
             <div class="center">
                 <a href="@yield('card2lnk')">
                     <img class="circle profile_pic"
@@ -39,7 +39,7 @@
                 </a>
             </div>
         </div>
-        <div class="col s4 valign">
+        <div class="col s4 valign cards">
             <div class="center">
                 <a href="@yield('card3lnk')">
                     <img class="circle profile_pic"
