@@ -6,35 +6,52 @@
     <link href="{{ URL::asset('css/home.css') }}" rel="stylesheet" type="text/css" media="screen,projection"/>
 @endsection
 
-@section('cardcolor', 'grey darken-3')
+@section('card1lnk', '/about')
+@section('card2lnk', 'http://github.coledeman.com')
+@section('card3lnk', '/resume')
+@section('cardcolor', 'grey darken-3 grey-text text-lighten-4')
 
 @section('content')
 
     <div class="parallax-container valign-wrapper row">
-            <div class="col s4 valign">
-                <div class="center">
+        <div class="col s4 valign">
+            <div class="center">
+                <a href="@yield('card1lnk')">
                     <img class="circle profile_pic" src={{URL::asset('images/userimage.jpg')}}>
+                </a>
+                <a href="@yield('card1lnk')">
                     <div class="card-panel  @yield('cardcolor')">
-                        <p class="center flow-text">sample text</p>
+                        <p class="center flow-text">About Cole</p>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col s4 valign">
-                <div class="center">
-                    <img class="circle profile_pic" src='http://assets2.bigthink.com/system/idea_thumbnails/60118/primary/computer_code.jpg?1448159143'>
+        </div>
+        <div class="col s4 valign">
+            <div class="center">
+                <a href="@yield('card2lnk')">
+                    <img class="circle profile_pic"
+                         src='http://assets2.bigthink.com/system/idea_thumbnails/60118/primary/computer_code.jpg?1448159143'>
+                </a>
+                <a href="@yield('card2lnk')">
                     <div class="card-panel  @yield('cardcolor')">
-                        <p class="center flow-text">sample text</p>
+                        <p class="center flow-text">GitHub</p>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col s4 valign">
-                <div class="center">
-                    <img class="circle profile_pic" src='http://v2.yewno.com/wp-content/uploads/2015/11/9cbd773a1b3393d88e12f0123e1a1dc4_clientImage_2400x1800_xlarge_original_1.jpg'>
+        </div>
+        <div class="col s4 valign">
+            <div class="center">
+                <a href="@yield('card3lnk')">
+                    <img class="circle profile_pic"
+                         src='http://v2.yewno.com/wp-content/uploads/2015/11/9cbd773a1b3393d88e12f0123e1a1dc4_clientImage_2400x1800_xlarge_original_1.jpg'>
+                </a>
+                <a href="@yield('card3lnk')">
                     <div class="card-panel  @yield('cardcolor')">
-                        <p class="center flow-text">sample text</p>
+                        <p class="center flow-text">Resume</p>
                     </div>
-                </div>
+                </a>
             </div>
+        </div>
     </div>
     <div class="parallax no-padding">
         <img src={{URL::asset('images/para1.jpg')}}>
