@@ -26,3 +26,7 @@ Route::get('/resume', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/bestofweeze', function () {
+    return view('bestofweeze');
+});
