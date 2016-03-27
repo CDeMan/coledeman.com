@@ -7,6 +7,10 @@
     height: 20rem;
 }
 
+.parallax img{
+    max-width: 100%;
+}
+
 @media (max-width: 1400px) {
     .parallax-container {
         height: 25rem;

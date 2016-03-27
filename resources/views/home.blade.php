@@ -53,7 +53,8 @@
             </div>
         </div>
     </div>
-    <div class="parallax no-padding">
+    <div class="row">
+    <div class="parallax no-padding s12">
         <img src={{URL::asset('images/para1.jpg')}}>
     </div>
     </div>
