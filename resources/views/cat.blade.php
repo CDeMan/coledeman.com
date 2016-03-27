@@ -2,6 +2,11 @@
 
 @section('title', 'CATS')
 
+@section('styles')
+    <style>
+        img {width: 33%;}
+    </style>
+
 @section('content')
 
     <div class="grey darken-4">
