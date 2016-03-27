@@ -1,15 +1,10 @@
 @extends('partials.contentdisplay')
 
-@section(' CATS', 'Home')
-
-@section('styles')
-    <link href="{{ URL::asset('css/home.css') }}" rel="stylesheet" type="text/css" media="screen,projection"/>
-@endsection
-
+@section('title', 'CATS')
 
 @section('content')
 
-    <div>
+    <div class="grey darken-4">
 
         <?php
         for ($x = 0; $x <= 10; $x++) {
