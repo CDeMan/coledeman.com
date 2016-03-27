@@ -13,7 +13,7 @@
 
         <?php
         for ($x = 0; $x <= 10; $x++) {
-            $content=file_get_contents('http://thecatapi.com/api/images/get?format=html');
+            $content=file_get_contents('http://thecatapi.com/api/images/get?format=html&api_key=NzY3NjA');
             echo $content;
         }
         ?>
