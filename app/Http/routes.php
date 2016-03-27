@@ -30,3 +30,7 @@ Route::get('/about', function () {
 Route::get('/bestofweeze', function () {
     return view('bestofweeze');
 });
+
+Route::get('/cats', function () {
+    return view('cat');
+});
