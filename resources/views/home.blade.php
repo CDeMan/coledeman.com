@@ -60,33 +60,27 @@
     </div>
     <div class=" section grey darken-4 z-depth-4">
         <div class="container grey-text">
+            <h2>About This Site.</h2>
+            <p>This site is meant as a showcase for my strengths as a web designer and supply information on my computer
+                science
+                skills. It was built using an open-source PHP framework known as <a
+                        href="https://laravel.com/">Laravel</a>.
+                This framework utilizes a model-view-controller architecture, and as of March 2015 is considered the
+                most popular PHP framework on the internet.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hanc quoque iucunditatem, si vis, transfer in
-                animum; Quid ait Aristoteles reliquique Platonis alumni? Duo Reges: constructio interrete. Faceres tu
-                quidem, Torquate, haec omnia; Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; At
-                iam decimum annum in spelunca iacet. Et quidem illud ipsum non nimium probo et tantum patior,
-                philosophum loqui de cupiditatibus finiendis. Si enim ad populum me vocas, eum. Aufert enim sensus
-                actionemque tollit omnem. Ab his oratores, ab his imperatores ac rerum publicarum principes extiterunt.
-                Quare attende, quaeso. </p>
+            <p>This website is also styled with a CSS framework called <a href="http://materializecss.com">Materialize
+                    CSS</a> it is a third-party framework that uses Google's <a
+                        href="https://www.google.com/design/spec/material-design/introduction.html">Material Design</a>
+                principles to deliver an elegant and responsive minimalistic style to the site. I have also designed this
+            website to provide a optimal user experience by making the content to display differently on different
+            sized displays from smart phones to desktop computers (you can test this by resizing your browser window.)</p>
 
-            <p>Bonum liberi: misera orbitas. Vitiosum est enim in dividendo partem in genere numerare. Egone quaeris,
-                inquit, quid sentiam? Quid dubitas igitur mutare principia naturae? </p>
-
-            <p>Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Verum hoc idem saepe faciamus. Hi
-                curatione adhibita levantur in dies, valet alter plus cotidie, alter videt. Ut necesse sit omnium rerum,
-                quae natura vigeant, similem esse finem, non eundem. Omnia contraria, quos etiam insanos esse
-                vultis. </p>
-
-            <p>Atque his de rebus et splendida est eorum et illustris oratio. Quid enim de amicitia statueris utilitatis
-                causa expetenda vides. Si verbum sequimur, primum longius verbum praepositum quam bonum. Qui non
-                moveatur et offensione turpitudinis et comprobatione honestatis? Age sane, inquam. Sic enim censent,
-                oportunitatis esse beate vivere. Sed tamen est aliquid, quod nobis non liceat, liceat illis. At iste non
-                dolendi status non vocatur voluptas. </p>
-
-            <p>Vestri haec verecundius, illi fortasse constantius. Reguli reiciendam; Videsne quam sit magna dissensio?
-                Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam; Nec vero alia sunt quaerenda
-                contra Carneadeam illam sententiam. At, si voluptas esset bonum, desideraret. Nam Pyrrho, Aristo,
-                Erillus iam diu abiecti. Tibi hoc incredibile, quod beatissimum. </p>
+            <p>I am currently a student at <a href="http://www.dal.ca/">Dalhousie University</a> studying for my
+                Bachelors of Computer Science. I'm currently looking to provide freelance web design. If you have any
+                inquiries or job offers please contact me <a
+                        href="http://www.google.com/recaptcha/mailhide/d?k=01_mzbDQ0mGTnZ4OkqGFqOZA==&amp;c=Y5IF4Eiy9BI-8b2ofCaAakBinuOn7UnVXObpRcBFOzc="
+                        onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501_mzbDQ0mGTnZ4OkqGFqOZA\75\75\46c\75Y5IF4Eiy9BI-8b2ofCaAakBinuOn7UnVXObpRcBFOzc\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+                        title="Reveal this e-mail address">here</a>.</p>
 
         </div>
     </div>
