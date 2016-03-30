@@ -82,6 +82,9 @@
                         onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501_mzbDQ0mGTnZ4OkqGFqOZA\75\75\46c\75Y5IF4Eiy9BI-8b2ofCaAakBinuOn7UnVXObpRcBFOzc\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
                         title="Reveal this e-mail address">here</a>.</p>
 
+            <h3>Notice:</h3>
+            <p>This website is still under development, I have not completed the about me page, and have not yet posted an up-to-date resume. </p>
+
         </div>
     </div>
 
