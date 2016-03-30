@@ -75,7 +75,7 @@
             website to provide a optimal user experience by making the content to display differently on different
             sized displays from smart phones to desktop computers (you can test this by resizing your browser window.)</p>
 
-            <p>I am currently a student at <a href="http://www.dal.ca/">Dalhousie University</a> studying for my
+            <p>I am currently a student at <a href="http://www.dal.ca/">Dalhousie University</a> in Halifax, Nova Scotia. I'm studying for my
                 Bachelors of Computer Science. I'm currently looking to provide freelance web design. If you have any
                 inquiries or job offers please contact me <a
                         href="http://www.google.com/recaptcha/mailhide/d?k=01_mzbDQ0mGTnZ4OkqGFqOZA==&amp;c=Y5IF4Eiy9BI-8b2ofCaAakBinuOn7UnVXObpRcBFOzc="
