@@ -75,6 +75,9 @@
             website to provide a optimal user experience by making the content to display differently on different
             sized displays from smart phones to desktop computers (you can test this by resizing your browser window.)</p>
 
+            <p>The website itself is running on an <a href="http://www.ubuntu.com/">Ubuntu</a> 14.04 server I have configured to use
+            Apache 2 for web hosting and is also running a mySQL server.</p>
+
             <p>I am currently a student at <a href="http://www.dal.ca/">Dalhousie University</a> in Halifax, Nova Scotia. I'm studying for my
                 Bachelors of Computer Science. I'm currently looking to provide freelance web design. If you have any
                 inquiries or job offers please contact me <a
