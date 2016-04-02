@@ -30,7 +30,7 @@
             <div class="center">
                 <a href="@yield('card2lnk')">
                     <img class="circle profile_pic"
-                         src='http://assets2.bigthink.com/system/idea_thumbnails/60118/primary/computer_code.jpg?1448159143'>
+                         src={{URL::asset('images/code.jpg')}}>
                 </a>
                 <a href="@yield('card2lnk')">
                     <div class="card-panel  @yield('cardcolor')">
@@ -43,7 +43,7 @@
             <div class="center">
                 <a href="@yield('card3lnk')">
                     <img class="circle profile_pic"
-                         src='http://v2.yewno.com/wp-content/uploads/2015/11/9cbd773a1b3393d88e12f0123e1a1dc4_clientImage_2400x1800_xlarge_original_1.jpg'>
+                         src={{URL::asset('images/computerbook.jpg')}}>
                 </a>
                 <a href="@yield('card3lnk')">
                     <div class="card-panel  @yield('cardcolor')">
