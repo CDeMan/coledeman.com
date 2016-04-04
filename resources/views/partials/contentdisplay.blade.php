@@ -25,7 +25,7 @@
                 <h5 class="white-text">Links</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="http://twitter.coledeman.com">Twitter</a></li>
-                    <li><a class="grey-text text-lighten-3" href="http://blog.coledeman.com">Blog</a></li>
+                    <li><a class="grey-text text-lighten-3" href="http://coledeman.com/blog">Blog</a></li>
                     <li><a class="grey-text text-lighten-3" href="http://github.coledeman.com">Github</a></li>
                 </ul>
             </div>

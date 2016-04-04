@@ -13,7 +13,7 @@
                         <ul id="dropdown4" class="dropdown-content purple lighten-2">
                             <li><a class="@yield('drop_txt_color')" href="/about">About</a></li>
                             <li><a class="@yield('drop_txt_color')" href="/resume">Resume</a></li>
-                            <li><a class="@yield('drop_txt_color')" href="http://blog.coledeman.com">Blog</a></li>
+                            <li><a class="@yield('drop_txt_color')" href="http://coledeman.com/blog">Blog</a></li>
                             <li><a class="@yield('drop_txt_color')" href="http://github.coledeman.com">Github</a></li>
                         </ul>
                         <li><a href="http://web.cs.dal.ca/~deman">Dal Website</a></li>
@@ -26,7 +26,7 @@
                         <ul id="dropdown3" class="dropdown-content purple lighten-2">
                             <li><a class="@yield('drop_txt_color')" href="/about">About</a></li>
                             <li><a class="@yield('drop_txt_color')" href="/resume">Resume</a></li>
-                            <li><a class="@yield('drop_txt_color')" href="http://blog.coledeman.com">Blog</a></li>
+                            <li><a class="@yield('drop_txt_color')" href="http://coledeman.com/blog">Blog</a></li>
                             <li><a class="@yield('drop_txt_color')" href="http://github.coledeman.com">Github</a></li>
                             <li><a class="@yield('drop_txt_color')" href="http://web.cs.dal.ca/~deman">Dalhousie Website</a></li>
                         </ul>
