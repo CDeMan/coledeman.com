@@ -12,11 +12,9 @@
 @section('endscripts')
 
     <script type="text/javascript">
-        <!--
         if (screen.width <= 800) {
             window.location = "http://www.coledeman.com/pdf/cole_deman_resume.pdf";
         }
-        //-->
     </script>
 
 @endsection
