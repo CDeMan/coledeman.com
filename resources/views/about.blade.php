@@ -6,16 +6,12 @@
     <div class="section grey darken-4 grey-text">
         <div class="container grey-text ">
             <h3>@yield('title')</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hanc quoque iucunditatem, si vis, transfer in
-                animum; Quid ait Aristoteles reliquique Platonis alumni? Duo Reges: constructio interrete. Faceres tu
-                quidem, Torquate, haec omnia; Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; At
-                iam decimum annum in spelunca iacet. Et quidem illud ipsum non nimium probo et tantum patior,
-                philosophum loqui de cupiditatibus finiendis. Si enim ad populum me vocas, eum. Aufert enim sensus
-                actionemque tollit omnem. Ab his oratores, ab his imperatores ac rerum publicarum principes extiterunt.
-                Quare attende, quaeso. </p>
+            <p>Hi, I'm Cole DeMan and I'm a Computer Science student at Dalhousie University. Currently I'm planning
+                on finishing my Bachelors of Computer Science in December of 2016. This is a website I've created to
+                act as a custom web presence for myself and hopefully show I have skills as a web designer.</p>
 
-            <p>Bonum liberi: misera orbitas. Vitiosum est enim in dividendo partem in genere numerare. Egone quaeris,
-                inquit, quid sentiam? Quid dubitas igitur mutare principia naturae? </p>
+            <p>During my studies at Dalhousie I have learnt a lot of skills, from C to Designing User Interfaces. I've
+                had a lot of experience working in teams for both agile and SCRUM styles of Development.</p>
 
             <p>Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Verum hoc idem saepe faciamus. Hi
                 curatione adhibita levantur in dies, valet alter plus cotidie, alter videt. Ut necesse sit omnium rerum,
