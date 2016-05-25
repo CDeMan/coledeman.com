@@ -11,12 +11,17 @@
                 act as a custom web presence for myself and hopefully show I have skills as a web designer.</p>
 
             <p>During my studies at Dalhousie I have learnt a lot of skills, from C to Designing User Interfaces. I've
-                had a lot of experience working in teams for both agile and SCRUM styles of Development.</p>
+                had a lot of experience working in teams for Agile Development.</p>
 
-            <p>Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Verum hoc idem saepe faciamus. Hi
-                curatione adhibita levantur in dies, valet alter plus cotidie, alter videt. Ut necesse sit omnium rerum,
-                quae natura vigeant, similem esse finem, non eundem. Omnia contraria, quos etiam insanos esse
-                vultis. </p>
+            <p>One example of my agile experience can be seen in <a href="/about/ui_report">
+                    this report</a> on a final project designing a user interface. We went through many iterations and
+                design
+                for although there was no actual code created for this project our team met several times a week for 4
+                months
+                developing this user interface using an agile/S.C.R.U.M process. We also performed user testing to find
+                flaws and improve our design. It was a great experience for learning how to work as a team and gaining a
+                strong understanding of how to design an interface for users.
+            </p>
 
             <p>Atque his de rebus et splendida est eorum et illustris oratio. Quid enim de amicitia statueris utilitatis
                 causa expetenda vides. Si verbum sequimur, primum longius verbum praepositum quam bonum. Qui non
