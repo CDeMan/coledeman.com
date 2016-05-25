@@ -13,7 +13,7 @@
 
     <script type="text/javascript">
         if (screen.width <= 800) {
-            window.location = "http://www.coledeman.com/pdf/cole_deman_resume.pdf";
+            window.location = "@yield('hardlink_pdf')";
         }
     </script>
 
