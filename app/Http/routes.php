@@ -27,6 +27,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/about/ui_report', function () {
+    return view('uireport');
+});
+
 Route::get('/bestofweeze', function () {
     return view('bestofweeze');
 });
