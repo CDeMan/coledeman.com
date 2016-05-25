@@ -86,7 +86,7 @@
                         title="Reveal this e-mail address">here</a>.</p>
 
             <h3>Notice:</h3>
-            <p>This website is still under development, I have not completed the about me page, and have not yet posted an up-to-date resume. </p>
+            <p>This website is still under development. </p>
 
         </div>
     </div>
