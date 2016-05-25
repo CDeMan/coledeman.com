@@ -23,18 +23,19 @@
                 strong understanding of how to design an interface for users.
             </p>
             <p>I learned more about agile, team work, and developing a real world application in a course called
-                Community Outreach
-                In this class we were marked on how well we worked on a real world non-profit application for Shift-Key
-                Labs.
-                In 4 months we worked with a client to build a RESTful API for an app for <a
-                        href="http://nssandbox.ca/">Nova Scotia
-                    Sandboxes</a>. They wanted an app for both Android and iOS that would display news from all of the
+                Community Outreach In this class we were marked on how well we worked on a real world non-profit
+                application for Shift-Key
+                Labs. In 4 months we worked with a client to build a RESTful API for an app for <a
+                        href="http://nssandbox.ca/">Nova Scotia Sandboxes</a>. They wanted an app for both Android and
+                iOS that would display news from all of the
                 different sandboxes. As well as allow users to register and search events. We followed an agile aproach
                 and completed an admin panel to control the database used by the app. We implemented the RESTful API
-                using the laravel
-                PHP framework, completed it save a few things the next team of students may want to add depending on
-                where
-                they take the next stage of development. Then started the apps themselves.</p>
+                using the laravel PHP framework, completed it save a few things the next team of students may want to
+                add depending on
+                where they take the next stage of development. Then started the apps themselves. (If you are a potential
+                employer I
+                have permission to use the source code as an example of my experience but am unable to share it publicly
+                because it is technically owned by Shift-Key Labs)</p>
 
 
         </div>
