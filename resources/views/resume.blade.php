@@ -17,7 +17,7 @@
     <script type="text/javascript">
         <!--
         if (screen.width <= 800) {
-            window.location = "http://coledeman.com/pdf/resume_rough.pdf";
+            window.location = "http://coledeman.com/pdf/cole_deman_resume.pdf";
         }
         //-->
     </script>
