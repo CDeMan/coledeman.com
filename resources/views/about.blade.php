@@ -23,17 +23,6 @@
                 strong understanding of how to design an interface for users.
             </p>
 
-            <p>Atque his de rebus et splendida est eorum et illustris oratio. Quid enim de amicitia statueris utilitatis
-                causa expetenda vides. Si verbum sequimur, primum longius verbum praepositum quam bonum. Qui non
-                moveatur et offensione turpitudinis et comprobatione honestatis? Age sane, inquam. Sic enim censent,
-                oportunitatis esse beate vivere. Sed tamen est aliquid, quod nobis non liceat, liceat illis. At iste non
-                dolendi status non vocatur voluptas. </p>
-
-            <p>Vestri haec verecundius, illi fortasse constantius. Reguli reiciendam; Videsne quam sit magna dissensio?
-                Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam; Nec vero alia sunt quaerenda
-                contra Carneadeam illam sententiam. At, si voluptas esset bonum, desideraret. Nam Pyrrho, Aristo,
-                Erillus iam diu abiecti. Tibi hoc incredibile, quod beatissimum. </p>
-
 
         </div>
     </div>
