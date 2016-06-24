@@ -12,7 +12,7 @@
 @section('endscripts')
 
     <script type="text/javascript">
-        if (screen.width <= 800) {
+        if (screen.width <= 600) {
             window.location = "@yield('hardlink_pdf')";
         }
     </script>

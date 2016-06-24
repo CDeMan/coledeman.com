@@ -37,6 +37,7 @@
                 have permission to use the source code as an example of my experience but am unable to share it publicly
                 because it is technically owned by Shift-Key Labs)</p>
 
+            <p>{{URL::asset('pdf/cole_deman_resume.pdf')}}</p>
 
         </div>
     </div>

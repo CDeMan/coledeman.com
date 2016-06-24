@@ -38,3 +38,8 @@ Route::get('/bestofweeze', function () {
 Route::get('/cats', function () {
     return view('cat');
 });
+
+Route::group(['prefix' => 'apps'], function () {
+    Route::get('testing', 'apps\shitgen\AppController@getView');
+    Route::post('testing', 'apps\shitgen\AppController@postView');
+});
