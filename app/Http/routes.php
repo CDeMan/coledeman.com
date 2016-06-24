@@ -40,6 +40,6 @@ Route::get('/cats', function () {
 });
 
 Route::group(['prefix' => 'apps'], function () {
-    Route::get('testing', 'apps\shitgen\AppController@getView');
-    Route::post('testing', 'apps\shitgen\AppController@postView');
+    Route::get('shitgen', 'apps\shitgen\AppController@getView');
+    Route::post('shitgen', 'apps\shitgen\AppController@postView');
 });
