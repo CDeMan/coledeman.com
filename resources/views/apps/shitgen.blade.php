@@ -5,6 +5,7 @@
 @section('content')
     <div class=" section grey darken-4 z-depth-4">
         <div class="container grey-text">
+            <h2>@yield('title')</h2>
             <div class="form-group">
                 <form>
                     <input type="text" name="word" value="{!!$data!!}">
