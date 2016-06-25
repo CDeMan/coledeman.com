@@ -17,20 +17,29 @@ class AppController extends Controller
      */
     public function getView(Request $request)
     {
-        $data = $request->input('word');
-        if (strlen($data) < 1) {
-            $data = "good";
+        $data = array($request->input('adj'), $request->input('noun'));
+        if (strlen($data[0]) < 1) {
+            $data[0] = "good";
+        }
+        if (strlen($data[1]) < 1) {
+            $data[1] = "shit";
         }
         return view('apps.shitgen')->with('data', $data);
     }
 
+    /**
+     * @param Request $request
+     * @return $this
+     */
     public function postView(Request $request)
     {
-        $data = $request->input('word');
-        $result = "👌👀👌👀👌👀👌👀👌👀 " + $data + " shit " + $data + " sHit👌 thats ✔ some " + $data + "👌👌shit
+        $adj = $request->input('adj');
+        $noun = $request->input('noun');
+        /*$result = "👌👀👌👀👌👀👌👀👌👀 " . $adj . " shit " . $adj . " sHit👌 thats ✔ some " . $adj . "👌👌shit
                 right👌👌there👌👌👌 right✔there ✔✔if i do ƽaү so my self 💯 i say so 💯 thats what im talking about
                 right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯
-                👌 👀 👀 👀 👌👌" + $data + " shit";
-        return view('apps.shitgen')->with('result', $result);
+                👌 👀 👀 👀 👌👌" . $adj . " shit";*/
+        $data = array($adj, $noun);
+        return view('apps.shitgen')->with('data', $data);
     }
 }
