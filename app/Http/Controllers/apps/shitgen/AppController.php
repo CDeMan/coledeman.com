@@ -44,6 +44,7 @@ class AppController extends Controller
                 right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯
                 👌 👀 👀 👀 👌👌" . $adj . " shit";*/
         $data = array($adj, $noun);
+        $this->addWord($request);
         return view('apps.shitgen')->with('data', $data);
     }
 
@@ -81,7 +82,7 @@ class AppController extends Controller
 
     function listArchive()
     {
-        $words = \App\ShitgenWord::where('count', '>', 0)->orderBy('created_at')->paginate(20);
+        $words = \App\ShitgenWord::where('count', '>=', 0)->orderBy('word')->paginate(20);
         return view('apps.wordslist')->with('words', $words);
     }
 }
