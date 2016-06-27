@@ -3,6 +3,7 @@
 @section('title', 'Shit Generator')
 
 @section('content')
+    <div class=" section grey darken-4 z-depth-4">
     <div class="container grey-text">
         <h2>@yield('title')</h2>
         <?php
@@ -17,7 +18,7 @@
             👌 👀 👀 👀 👌👌{!!$adj!!} {!!$noun!!}
         </p>
 
-        <div class=" section grey darken-4 z-depth-4">
+
         <div class="card-panel  grey darken-1">
             <div class="form-group black-text">
                 <form>
