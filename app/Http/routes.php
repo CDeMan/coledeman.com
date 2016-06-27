@@ -45,4 +45,5 @@ Route::group(['prefix' => 'apps'], function () {
     });
     Route::get('shitgen', 'apps\shitgen\AppController@getView');
     Route::post('shitgen', 'apps\shitgen\AppController@addWord');
+    Route::get('shitgen/wordslist', 'apps\shitgen\AppController@listArchive');
 });

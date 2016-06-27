@@ -78,4 +78,10 @@ class AppController extends Controller
             ShitgenWord::where('word', '=', $request->input('adj'))->increment('count');
         }
     }
+
+    function listArchive()
+    {
+        $words = \App\ShitgenWord::where('count', '>', 0)->orderBy('created_at')->paginate(20);
+        return view('apps.wordslist')->with('words', $words);
+    }
 }

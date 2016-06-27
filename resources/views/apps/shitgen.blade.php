@@ -3,7 +3,6 @@
 @section('title', 'Shit Generator')
 
 @section('content')
-    <div class=" section grey darken-4 z-depth-4">
         <div class="container grey-text">
             <h2>@yield('title')</h2>
             <?php
@@ -32,10 +31,10 @@
                             <input type="submit" value="Generate">
                         </div>
                     </form>
+                    <a href="{{ action('apps\shitgen\AppController@listArchive') }}">See all previously used words</a>
                 </div>
             </div>
         </div>
-    </div>
 
 @endsection
 
