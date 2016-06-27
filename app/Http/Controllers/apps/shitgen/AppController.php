@@ -3,8 +3,11 @@
 namespace App\Http\Controllers\apps\shitgen;
 
 use App\Http\Controllers\Controller;
-use App\Event;
+use App\ShitgenWord;
 use Illuminate\Http\Request;
+use Illuminate\Database\Query;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Validator;
 use App\Http\Requests;
 
 class AppController extends Controller
@@ -41,5 +44,38 @@ class AppController extends Controller
                 👌 👀 👀 👀 👌👌" . $adj . " shit";*/
         $data = array($adj, $noun);
         return view('apps.shitgen')->with('data', $data);
+    }
+
+    public function addWord(Request $request)
+    {
+        //make sure all fields are valid
+        $v = Validator::make($request->all(), [
+            'noun' => 'required',
+            'adj' => 'required',
+        ]);
+        //if input is invalid, go back with errors and old input
+        if ($v->fails()) {
+            return redirect()->back()->withInput()->withErrors($v->errors());
+        }
+
+        $word = new ShitgenWord();
+        $word->word = $request->input('noun');
+        $result = ShitgenWord::where('word', '=', $request->input('noun'))->get();
+        $word->type = 'noun';
+        if (!$result->count()) {
+            $word->save();
+        } else {
+            ShitgenWord::where('word', '=', $request->input('noun'))->increment('count');
+        }
+        $word = new ShitgenWord();
+        $word->word = $request->input('adj');
+        $exists = ShitgenWord::where('word', '=', $request->input('adj'))->get();
+        $word->type = 'adj';
+        if (!$result->count()) {
+            $word->save();
+        } else {
+            ShitgenWord::where('word', '=', $request->input('adj'))->increment('count');
+        }
+        return $this->getView($request);
     }
 }
