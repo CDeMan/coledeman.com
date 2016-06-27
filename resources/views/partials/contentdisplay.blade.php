@@ -6,9 +6,7 @@
 @section('body')
 
     @include('partials.nav')
-    <div class=" section grey darken-4 z-depth-4">
     @yield('content')
-    </div>
 @endsection
 
 @section('footer')

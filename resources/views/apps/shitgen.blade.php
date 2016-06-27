@@ -16,6 +16,8 @@
             right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯
             👌 👀 👀 👀 👌👌{!!$adj!!} {!!$noun!!}
         </p>
+
+        <div class=" section grey darken-4 z-depth-4">
         <div class="card-panel  grey darken-1">
             <div class="form-group black-text">
                 <form>
@@ -34,6 +36,7 @@
             </div>
         </div>
         <a href="{{ action('apps\shitgen\AppController@listArchive') }}">See all previously used words</a>
+    </div>
     </div>
 
 @endsection
