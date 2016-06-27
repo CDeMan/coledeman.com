@@ -27,6 +27,7 @@ class AppController extends Controller
         if (strlen($data[1]) < 1) {
             $data[1] = "shit";
         }
+        $this->addWord($request);
         return view('apps.shitgen')->with('data', $data);
     }
 
@@ -76,6 +77,5 @@ class AppController extends Controller
         } else {
             ShitgenWord::where('word', '=', $request->input('adj'))->increment('count');
         }
-        return $this->getView($request);
     }
 }
