@@ -22,10 +22,12 @@ class AppController extends Controller
     {
         $data = array($request->input('adj'), $request->input('noun'));
         if (strlen($data[0]) < 1) {
-            $data[0] = "good";
+            $word = ShitgenWord::where('type', '=', 'adj')->orderByRaw('RAND()')->first();
+            $data[0] = $word->word;
         }
         if (strlen($data[1]) < 1) {
-            $data[1] = "shit";
+            $word = ShitgenWord::where('type', '=', 'noun')->orderByRaw('RAND()')->first();
+            $data[1] = $word->word;
         }
         $this->addWord($request);
         return view('apps.shitgen')->with('data', $data);

@@ -13,4 +13,11 @@ class ShitgenWord extends Model
 
     //don't show these fields in json results
     protected $hidden = array('id', 'created_at', 'updated_at', 'publish_at');
+
+    function getWord()
+    {
+        return $this->fillable[0];
+    }
 }
+
+

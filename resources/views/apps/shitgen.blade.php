@@ -31,7 +31,8 @@
                             <label class="black-text">Noun:</label>
                             <input type="text" name="noun" value="{!!$noun!!}">
                         </div>
-                        <input type="submit" value="Generate">
+                        <input class="waves-effect waves-light btn" type="submit" value="Generate">
+                        <a class="waves-effect waves-light btn" href="shitgen">Random</a>
                     </div>
                 </form>
             </div>
