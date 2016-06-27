@@ -82,7 +82,7 @@ class AppController extends Controller
 
     function listArchive()
     {
-        $words = \App\ShitgenWord::where('count', '>=', 0)->orderBy('word')->paginate(20);
+        $words = \App\ShitgenWord::where('count', '>=', 0)->orderBy('word')->paginate(10);
         return view('apps.wordslist')->with('words', $words);
     }
 }
