@@ -31,10 +31,9 @@
                         <input type="submit" value="Generate">
                     </div>
                 </form>
-
-                <a href="{{ action('apps\shitgen\AppController@listArchive') }}">See all previously used words</a>
             </div>
         </div>
+        <a href="{{ action('apps\shitgen\AppController@listArchive') }}">See all previously used words</a>
     </div>
 
 @endsection
