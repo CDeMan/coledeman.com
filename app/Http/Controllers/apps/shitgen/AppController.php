@@ -73,7 +73,7 @@ class AppController extends Controller
         }
         $word = new ShitgenWord();
         $word->word = $request->input('adj');
-        $exists = ShitgenWord::where('word', '=', $request->input('adj'))->get();
+        $result = ShitgenWord::where('word', '=', $request->input('adj'))->get();
         $word->type = 'adj';
         if (!$result->count()) {
             $word->save();
