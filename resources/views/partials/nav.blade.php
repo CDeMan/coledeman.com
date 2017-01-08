@@ -23,7 +23,8 @@
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-up">
                     <li>
-                        <a href="#" class="dropdown-button" data-beloworigin="true" data-activates="dropdown3"><i class="material-icons">list</i></a>
+                        <a href="#" class="dropdown-button" data-beloworigin="true" data-activates="dropdown4"><i
+                                    class="material-icons">list</i></a>
                         <ul id="dropdown3" class="dropdown-content purple lighten-2">
                             <li><a class="@yield('drop_txt_color')" href="/about">About</a></li>
                             <li><a class="@yield('drop_txt_color')" href="/resume">Resume</a></li>
