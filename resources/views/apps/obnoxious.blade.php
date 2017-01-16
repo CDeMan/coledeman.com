@@ -54,19 +54,32 @@
             for (i = 0; i < length; i++) {
                 console.log(input.length);
                 tmp = capsChoice(i, input);
-                if (tmp == "o" || tmp == "O") {
-                    r = getRandom(0, 3);
-                    if (r > 1) {
-                        tmp = "0";
-                    }
-                }
-                result += tmp;
                 r = getRandom(0, 25);
                 if (r > 21) {
-                    var ran = getRandom(1, 4);
+                    var ran = getRandom(2, 5);
                     for (j = 0; j < ran; j++) {
                         result += capsChoice(0, tmp);
                     }
+                } else {
+                    if (tmp == "o" || tmp == "O") {
+                        r = getRandom(0, 3);
+                        if (r > 1) {
+                            tmp = "0";
+                        }
+                    }
+                    if (tmp == "e" || tmp == "E") {
+                        r = getRandom(0, 4);
+                        if (r > 2) {
+                            tmp = "3";
+                        }
+                    }
+                    if (tmp == "i" || tmp == "I") {
+                        r = getRandom(0, 3);
+                        if (r > 1) {
+                            tmp = "1";
+                        }
+                    }
+                    result += tmp;
                 }
             }
             console.log("input = " + input);
