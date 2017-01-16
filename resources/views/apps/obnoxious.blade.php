@@ -56,7 +56,7 @@
                 if (r > 4) {
                     result += input.charAt(i).toUpperCase();
                 } else {
-                    result += input.charAt(i);
+                    result += input.charAt(i).toLowerCase();
                 }
             }
             console.log("input = " + input);
