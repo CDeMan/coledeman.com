@@ -49,20 +49,39 @@
         function process(input) {
             var r = getRandom(0, 10);
             var result = "";
+            var tmp;
             var length = input.length;
             for (i = 0; i < length; i++) {
                 console.log(input.length);
-                r = getRandom(0, 10);
-                if (r > 4) {
-                    result += input.charAt(i).toUpperCase();
-                } else {
-                    result += input.charAt(i).toLowerCase();
+                tmp = capsChoice(i, input);
+                if (tmp == "o" || tmp == "O") {
+                    r = getRandom(0, 3);
+                    if (r > 1) {
+                        tmp = "0";
+                    }
+                }
+                result += tmp;
+                r = getRandom(0, 25);
+                if (r > 21) {
+                    var ran = getRandom(1, 4);
+                    for (j = 0; j < ran; j++) {
+                        result += capsChoice(0, tmp);
+                    }
                 }
             }
             console.log("input = " + input);
             return result;
         }
         ;
+
+        function capsChoice(i, input) {
+            var r = getRandom(0, 20);
+            if (r > 9) {
+                return input.charAt(i).toUpperCase();
+            } else {
+                return input.charAt(i).toLowerCase();
+            }
+        }
 
         function getRandom(min, max) {
             return Math.floor(Math.random() * (max - min) + min);
