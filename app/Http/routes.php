@@ -43,7 +43,13 @@ Route::group(['prefix' => 'apps'], function () {
     Route::get('/', function () {
         return view('apps.allapps');
     });
+    /*shitgen*/
     Route::get('shitgen', 'apps\shitgen\AppController@getView');
     Route::post('shitgen', 'apps\shitgen\AppController@getView');
     Route::get('shitgen/wordslist', 'apps\shitgen\AppController@listArchive');
+
+    /*obnoxious*/
+    Route::get('obnoxious', function () {
+        return view('apps/obnoxious');
+    });
 });
