@@ -4,17 +4,12 @@
     <div class="section grey darken-4">
         <div class="container grey-text">
             <h3>@yield('title')</h3>
-            <embed src="@yield('pdf_name')" width="100%" height="2100px" class="z-depth-4">
+            <iframe src="https://docs.google.com/document/d/1ZAGIWjSJCOmmpT_IYyWC4JH0o0l0JPOLx9gENjD400k/pub?embedded=true"></iframe>
         </div>
     </div>
 @endsection
 
 @section('endscripts')
 
-    <script type="text/javascript">
-        if (screen.width <= 600) {
-            window.location = "@yield('hardlink_pdf')";
-        }
-    </script>
 
 @endsection
