@@ -1,19 +1,14 @@
 @extends('partials.contentdisplay')
 
-@section('title', 'Applications')
+@section('title', 'Web Applications')
 
 @section('content')
     <div class=" section grey darken-4 z-depth-4">
         <div class="container grey-text">
             <h2 class="glyphicon-bold"> @yield('title')</h2>
-            <h4><a href="/apps/shitgen">Shit Generator</a></h4>
-            <p>
-                Basically just a simple little chunk of Php code that replaces the words in a meme, a friend suggested
-                it and I decided to make it.
-            </p>
             <h4><a href="/apps/obnoxious">Obnoxious Converter</a></h4>
             <p>
-                Description tba.
+                A simple string maniplulation application. Nothing fancy. Was mostly created for a bad joke.
             </p>
         </div>
     </div>
