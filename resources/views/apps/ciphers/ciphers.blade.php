@@ -12,6 +12,12 @@
     <script src="{{URL::asset('js/jquery.js')}}"></script>
 @endsection
 
+@section('meta')
+    <meta name="description"
+          content="A app for encrypting a decrypting Caesar Ciphers, Vigenère ciphers, and Matrix Transposition Ciphers.">
+    <meta name="keywords" content="Vigenère, Vigenere, caesar, matrix transposition, cipher, encrypt, decrypt">
+@endsection
+
 @section('content')
 
     <div class=" section grey darken-4 z-depth-4">
