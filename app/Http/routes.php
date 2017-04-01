@@ -52,4 +52,9 @@ Route::group(['prefix' => 'apps'], function () {
     Route::get('obnoxious', function () {
         return view('apps/obnoxious');
     });
+
+    /*cipher*/
+    Route::get('ciphers', function () {
+        return view('apps/ciphers/ciphers');
+    });
 });

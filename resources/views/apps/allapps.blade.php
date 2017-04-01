@@ -10,6 +10,10 @@
             <p>
                 A simple string maniplulation application. Nothing fancy. Was mostly created for a bad joke.
             </p>
+            <h4><a href="/apps/ciphers">Cipher Encryption/Decryption</a></h4>
+            <p>
+                A simple application I made using javascript and jquery to encrypt and decrypt ciphers.
+            </p>
         </div>
     </div>
 
