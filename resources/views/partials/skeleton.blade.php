@@ -42,6 +42,7 @@
     <meta name="keywords" content="computer science, resume, coder, programmer, laravel, dalhousie">
     <meta name="author" content="Cole DeMan">
     <meta charset="utf-8">
+    @yield('meta')
 </head>
 <body>
 @yield('body')
